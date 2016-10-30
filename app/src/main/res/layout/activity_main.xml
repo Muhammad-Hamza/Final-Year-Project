@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    style="@style/backGroundColor"
+    tools:context="com.example.hamza.fyp.MainActivity">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitComplain"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="Register COMPLAIN"
+        style="@style/customTextcolor"
+        android:layout_marginBottom="20dp"
+
+
+
+
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="FOLLOW UP"
+        style="@style/customTextcolor"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="sign UP"
+        style="@style/customTextcolor"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+</LinearLayout>
